@@ -1,0 +1,72 @@
+/* Change body background*/
+body {
+
+  background-color: powderblue;
+}
+h1 {
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  display: flex;
+  color: blue;
+}
+h1:hover {
+  color: purple;
+}
+p {
+  display: flex;
+  position: relative;
+  color: black;
+}
+
+div{
+	position: static;
+	color: black;
+}
+
+div:active{
+	position: static;
+	color: white;
+}
+
+ol{
+	display: grid;
+}
+
+* {
+    margin: 0;
+}
+   
+#first{
+	color: black;
+}
+#first:hover{
+	color:blue;
+}
+
+
+display: block;
+.wrapper {
+  font-size: 1em;
+}
+
+/* Box class parameters */
+.box {
+  border: 1px solid black;
+} 
+
+/* Classes with different units */ 
+.px {
+  margin: 10px 20px 10px 20px;
+  margin: auto;
+  width: 200px;
+}
+
+.vw {
+  margin: 1vw 2vw 1vw 2vw;
+  width: 10vw;
+}
+
+.em {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 10em;
+}
